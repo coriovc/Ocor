@@ -467,7 +467,8 @@ body {
   margin: 0 auto; }
   @media (max-width: 1180px) {
     .intro {
-      max-width: 100%; } }
+      max-width: 100%;
+      justify-content: star; } }
   .intro--banner {
     position: relative;
     height: 475px; }
@@ -479,6 +480,9 @@ body {
       right: 0;
       height: 2px;
       background-color: #282828; }
+      @media (max-width: 1180px) {
+        .intro--banner::before {
+          bottom: -100px; } }
     .intro--banner::after {
       content: "";
       position: absolute;
@@ -486,7 +490,8 @@ body {
       left: 0;
       width: 30px;
       height: 4px;
-      background-color: #004dff; }
+      background-color: #004dff;
+      bottom: -104px; }
     .intro--banner h1 {
       position: relative;
       font-size: 68px;
@@ -560,9 +565,10 @@ body {
     .intro--banner h1 {
       font-size: 44px; }
     .intro--banner img {
-      width: 330px; }
+      width: 330px;
+      bottom: -15em; }
   .intro--options {
-    display: block; }
+    display: none; }
     .intro--options > a {
       display: block;
       max-width: 100%;

@@ -10,6 +10,7 @@
 
   @media (max-width: 1180px)
     max-width: 100%
+    justify-content: star
 
   &--banner
     position: relative
@@ -24,6 +25,9 @@
       height: 2px
       background-color: $muted-gray
 
+      @media (max-width: 1180px)
+        bottom: -100px
+
     &::after
       content: ""
       position: absolute
@@ -32,6 +36,9 @@
       width: 30px
       height: 4px
       background-color: $highlight
+
+      @media (max-width: 1180px)
+      bottom: -104px
 
     h1
       position: relative
@@ -134,9 +141,10 @@
 
       img
         width: 330px
+        bottom: -15em
 
     &--options
-      display: block
+      display: none
 
       & > a
         display: block

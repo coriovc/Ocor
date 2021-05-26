@@ -1,0 +1,87 @@
+.service_area{
+    padding-top: 155px;
+    padding-bottom: 130px;
+    background-color: #fff;
+    @media #{$mobile_device} {
+        padding-bottom: 40px;
+        padding-top: 70px;
+    }
+    @media #{$tablet_device} {
+        padding-bottom: 50px;
+    }
+    .single_service{
+        padding: 48px 35px 45px 35px;
+        border: 2px solid #E8E8E8;
+        @include transition(.9s);
+        margin-bottom: 5rem;
+        @include border-radius(5px);
+        @media #{$tablet_device}{
+            padding: 30px 20px;
+        }
+        .icon{
+
+        }
+        h3{
+            @include transition(.9s);
+            font-size: 24px;
+            font-weight: 400;
+            color: #737373;
+            margin-top: 29px;
+            font-family: $font1;
+            margin-bottom: 13px;
+
+            @media #{$tablet_device} {
+                font-size: 22px;
+            }
+        }
+        p{
+            color: #727272;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1;
+            font-family: $font2;
+            margin-bottom: 0;
+        }
+        
+        &.oc-1:hover{
+            border: 2px solid #6200ee;            
+            h3{
+                color:#6200ee;
+            }
+        }
+        &.oc-2:hover{
+            border: 2px solid #FF7C02;
+            h3{
+                color:#FF7C02;
+            }
+        }
+        &.oc-3:hover{
+            border: 2px solid #36F709;
+            h3{
+                color:#36F709;
+            }
+        }
+        &.oc-4:hover{
+            border: 2px solid #004DFF;
+            h3{
+                color:#004DFF;
+            }
+        }
+        &.oc-5:hover{
+            border: 2px solid #03DCFC;
+            h3{
+                color:#03DCFC;
+            }
+        }
+        &.oc-6:hover{
+            border: 2px solid #F6004C;
+            h3{
+                color:#F6004C;
+            }
+        }
+        
+        &:hover{
+            border: 2px solid #6200ee;
+        }
+    }
+}

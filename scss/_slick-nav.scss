@@ -1,0 +1,97 @@
+
+
+// slick-nav
+.mobile_menu{
+    @media #{$mobile_device} {
+        position: absolute;
+        right: 0px;
+        width: 100%;
+        z-index: 9;
+    }
+}
+.slicknav_menu{
+    .slicknav_nav {
+        background: #fff;
+        float: right;
+        padding: 1rem 0;
+        width: 95%;
+        border-radius: 0px;
+        margin-top: 5px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 25px;
+        border-radius: 15px;
+        box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+        -webkit-transition-duration: 500ms;
+          -o-transition-duration: 500ms;
+          transition-duration: 500ms;
+        
+        a{
+            &:hover{
+                background: transparent;
+                color: #000000;
+            }
+            &.active{
+                color: #6200ee;
+            }
+            i{
+                @media #{$mobile_device} {
+                    display: none;
+                }
+                @media #{$tablet_device} {
+                    display: none;
+                }
+            }
+        }
+        .slicknav_btn {
+            background-color: transparent;
+            cursor: pointer;
+            margin-bottom: 10px;
+            margin-top: -40px;
+            position: relative;
+            z-index: 99;
+            border: 1px solid #ddd;
+            top: 3px;
+            right: 5px;
+            top: -36px;
+            .slicknav_icon{
+                margin-right: 6px;
+                margin-top: 3px;
+                position: relative;
+                padding-bottom: 3px;
+                top: -11px;
+                right: -5px;
+            }
+        }
+    }
+    @media #{$mobile_device} {
+        margin-right: 0px;
+    }
+}
+
+
+// slick-nav
+.slicknav_nav .slicknav_arrow {
+    float: right;
+    font-size: 30px;
+    position: relative;
+    top: -9px;  
+}
+.slicknav_btn {
+	background-color: transparent;
+	cursor: pointer;
+	margin-bottom: 10px;
+	position: relative;
+	z-index: 99;
+	border: none;
+	border-radius: 3px;
+	top: 5px;
+	padding: 5px;
+	right: 0;
+	margin-top: -5px;
+    top: -29px;
+    right: 5px;
+
+}

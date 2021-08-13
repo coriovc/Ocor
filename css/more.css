@@ -2,8 +2,8 @@
     background: linear-gradient(271deg, #058ad4, #3c48cc, #6806a1, #bd016a, #d00144);
     background-size: 1000% 1000%;
 
-    -webkit-animation: fondo-index 10s ease infinite;
-    animation: fondo-index 10s ease infinite;
+    -webkit-animation: fondo-index 15s ease infinite;
+    animation: fondo-index 15s ease infinite;
 }
 
 @-webkit-keyframes fondo-index {

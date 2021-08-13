@@ -428,6 +428,17 @@ mailChimp();
             $("#search_input").focus();
         });
 
+$(function() {
+
+        $(document).on('click', '.page-scroll', function(event) {
+            var $anchor = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top
+            }, 2000, 'easeInOutExpo');
+            event.preventDefault();
+        });
+
+    });
 
 
 })(jQuery);	

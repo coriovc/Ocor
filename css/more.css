@@ -1,0 +1,76 @@
+.gradi {
+    background: linear-gradient(271deg, #058ad4, #3c48cc, #6806a1, #bd016a, #d00144);
+    background-size: 1000% 1000%;
+
+    -webkit-animation: fondo-index 4s ease infinite;
+    animation: fondo-index 4s ease infinite;
+}
+
+@-webkit-keyframes fondo-index {
+    0%{background-position:87% 0%}
+    50%{background-position:14% 100%}
+    100%{background-position:87% 0%}
+}
+@keyframes fondo-index {
+    0%{background-position:87% 0%}
+    50%{background-position:14% 100%}
+    100%{background-position:87% 0%}
+}
+
+
+.img-1{
+    width: 60%;
+    position: relative;
+    margin-bottom: 1rem;
+}
+        .ani-img-1{
+            -webkit-animation: mover-1 3s infinite  alternate;
+            animation: mover-1 3s infinite  alternate;
+        }
+
+
+.img-2{
+    width: 35%;
+    position: absolute;
+    margin-top: 1rem;
+    left: 0;
+    margin-left: 4rem;  
+}
+        .ani-img-2{
+            -webkit-animation: mover-2 3s infinite  alternate;
+            animation: mover-2 3s infinite  alternate;
+        }
+
+
+
+.img-3{
+    width: 35%;
+    position: absolute;
+    margin-top: 15rem;
+    right: 0;
+    margin-right: 4rem;
+}
+        .ani-img-3{
+            -webkit-animation: mover-2 3s infinite  alternate;
+            animation: mover-2 3s infinite  alternate;
+        }
+
+
+  @-webkit-keyframes mover-1 {
+        0% { transform: translateY(0); }
+        100% { transform: translateY(-5px); }
+  }
+  @keyframes mover-1 {
+        0% { transform: translateY(0); }
+        100% { transform: translateY(-5px); }
+  }
+
+
+  @-webkit-keyframes mover-2 {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-5px); }
+  }
+  @keyframes mover-2 {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-5px); }
+  }

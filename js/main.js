@@ -1,5 +1,6 @@
 (function ($) {
 "use strict";
+
 // TOP Menu Sticky
 $(window).on('scroll', function () {
 	var scroll = $(window).scrollTop();
@@ -12,7 +13,7 @@ $(window).on('scroll', function () {
 	}
 });
 
-$(document).on('click', '#scrollUp', function(event) {
+        $(document).on('click', '#scrollUp', function(event) {
             var $anchor = $(this);
             $('html, body').stop().animate({
                 scrollTop: $($anchor.attr('href')).offset().top
@@ -30,9 +31,9 @@ $(document).on('click', '#scrollUp', function(event) {
 
 
 
+
+
 $(document).ready(function(){
-
-
 
 // mobile_menu
 var menu = $('ul#navigation');

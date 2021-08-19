@@ -23,8 +23,9 @@
 	$body .= "<thead style='text-align: center;'><tr><td style='border:none;' colspan='2'>";
 	$body .= "<a href='{$link}'><img src='{$logo}' alt=''></a><br><br>";
 	$body .= "</td></tr></thead><tbody><tr>";
-	$body .= "<td style='border:none;'><strong>Name:</strong> {$name}</td>";
+	$body .= "<td style='border:none;'><strong>Nombre:</strong> {$name}</td>";
 	$body .= "<td style='border:none;'><strong>Email:</strong> {$from}</td>";
+	$body .= "<td style='border:none;'><strong>Telefono:</strong> {$number}</td>";
 	$body .= "</tr>";
 	$body .= "<tr><td style='border:none;'><strong>Subject:</strong> {$csubject}</td></tr>";
 	$body .= "<tr><td></td></tr>";

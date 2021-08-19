@@ -2,22 +2,22 @@
 	background: #fff;
 	color: #131313;
 	display: inline-block;
-	padding: 14px 44px;
+	padding: 10px 40px;
 	font-family: $font1;
 	font-size: 16px;
     font-weight: 400;
     border: 0;
-    border: 1px solid #6200ee;
-    @include border-radius(30px);
+    border: 1px solid #2a2a4b;
+    @include border-radius(15px);
     // width: 180px;
     text-align: center;
-    color: #6200ee !important;
+    color: #2a2a4b !important;
     text-transform: uppercase;
     cursor: pointer;
     &:hover{
-        background: #6200ee;
+        background: #2a2a4b;
         color: #fff !important;
-        border: 1px solid #6200ee;
+        border: 1px solid #2a2a4b;
     }
     &:focus{
         outline: none;
@@ -28,7 +28,7 @@
 }
 .boxed-btn3 {
         /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0181f5+0,5db2ff+100 */
-    background: #6200ee;
+    background: #2a2a4b;
 	color: #fff;
 	display: inline-block;
 	padding: 12px 33px;
@@ -44,9 +44,8 @@
     @include transition(.5s);
     cursor: pointer;
     &:hover{
-        border: 1px solid #6200ee;
-        color: #6200ee !important;
-        background: #FFF ;
+
+        background: #3d3d5c ;
     }
     &:focus{
         outline: none;

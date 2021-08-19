@@ -3,12 +3,13 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Ocor Inc</title>
+    <title>D'licias CAKES - Ocor Inc</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="../../img/logo/logo2.png">
+    <link rel="icon" href="../../img/portfolio/dlicias/logo.png">
 
     <!-- CSS here -->
+    <link rel="stylesheet" href="../../css/more.css">
     <link rel="stylesheet" href="../../css/bootstrap.min.css">
     <link rel="stylesheet" href="../../css/owl.carousel.min.css">
     <link rel="stylesheet" href="../../css/magnific-popup.css">
@@ -21,10 +22,19 @@
     <link rel="stylesheet" href="../../css/slick.css">
     <link rel="stylesheet" href="../../css/slicknav.css">
     <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/icon.css">    
     <link rel="stylesheet" href="../../css/responsive.css">
 </head>
-<body>      
+<body>
 
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="wrapper">
+            <div class="loader loader--3"></div>
+        </div>
+    </div>
+
+    <div class="arrow-back"><a href="javascript: history.back()"><i class="material-icons-round">arrow_back_ios</i></a></div>
     <!-- header-start -->
     <header>
         <div class="header-area ">
@@ -120,7 +130,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-10">
                     <div class="banner wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s">
-                        <img src="../../img/portfolio_details/details_banner.png" alt="">
+                        <img src="../../img/portfolio/dlicias/1.png" alt="">
                     </div>
                     <div class="details_text">
                         <div class="row">
@@ -233,6 +243,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="../../js/mail-script.js"></script>
 
     <script src="../../js/main.js"></script>
+    <script>
+    //after window is loaded completely 
+    window.onload = function(){
+        //hide the preloader
+        document.querySelector("#preloader").style.display = "none";
+    }</script>
 </body>
 
 </html>

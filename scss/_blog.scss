@@ -1,6 +1,16 @@
 /* Start Blog Area css
 ============================================================================================ */
 
+.design-ajus{
+    display: -webkit-inline-box!important;
+    display: -ms-inline-flexbox!important;
+    display: inline-flex!important;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+
+}
+
+
 .latest-blog-area {
     .area-heading {
         margin-bottom: 70px;
@@ -1243,9 +1253,11 @@
             .thumb {
                 margin-right: 20px;
                 background: #000;
+                border-radius: 1rem;
 
                 img {
                     @include transform_time(.5s);
+                    border-radius: 1rem;
                 }
             }
 
@@ -1278,9 +1290,11 @@
             .thumb {
                 margin-left: 20px;
                 background: #000;
+                border-radius: 1rem;
 
                 img {
                     @include transform_time(.5s);
+                    border-radius: 1rem;
                 }
             }
 
@@ -1499,3 +1513,41 @@
 
 
 /*============ End Blog Single Styles  =============*/
+
+
+
+.card-deck{
+
+    .card{
+        border: none;
+        border-radius: 1rem;
+
+        .card-header{
+            
+            border-radius: calc(1rem - 1px) calc(1rem - 1px) 0 0;
+
+            &.basic{
+                background: #004DFF;
+            }
+
+            &.stand{
+                background: #A82C9E;
+            }
+
+            &.pro{
+                background: #E1003C;
+            }
+
+            &.eco{
+                background: #00D05E;
+            }
+
+            h4{
+                color: #fff;
+                font-family: 'Comfortaa';
+                font-size: 30px;
+            }
+        }
+    }
+
+}

@@ -16,7 +16,8 @@
 body {
   font-family: "Comfortaa", cursive;
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+  overflow-x: hidden; }
 
 .img {
   max-width: 100%;
@@ -216,6 +217,10 @@ h3 {
 
 .section-padding {
   padding-top: 120px;
+  padding-bottom: 120px; }
+
+.section-ads {
+  padding-top: 0;
   padding-bottom: 120px; }
 
 .pt-120 {
@@ -471,6 +476,55 @@ h3 {
   .line_btn:hover {
     background: #6200ee;
     color: #fff; }
+
+.btn-plans {
+  display: inline-block;
+  padding: 12px 33px;
+  font-family: "Comfortaa", cursive;
+  font-size: 16px;
+  font-weight: 500;
+  border: 0;
+  border: 1px solid transparent;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  text-align: center;
+  text-transform: capitalize;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer; }
+  .btn-plans:focus {
+    outline: none; }
+  .btn-plans.basic {
+    background: transparent;
+    border: 1px solid #004DFF;
+    color: #004DFF; }
+    .btn-plans.basic:hover {
+      background: #004DFF;
+      color: #fff; }
+  .btn-plans.stand {
+    background: transparent;
+    border: 1px solid #A82C9E;
+    color: #A82C9E; }
+    .btn-plans.stand:hover {
+      background: #A82C9E;
+      color: #fff; }
+  .btn-plans.pro {
+    background: transparent;
+    border: 1px solid #E1003C;
+    color: #E1003C; }
+    .btn-plans.pro:hover {
+      background: #E1003C;
+      color: #fff; }
+  .btn-plans.eco {
+    background: transparent;
+    border: 1px solid #00D05E;
+    color: #00D05E; }
+    .btn-plans.eco:hover {
+      background: #00D05E;
+      color: #fff; }
 
 .section_title span {
   position: relative;
@@ -1406,6 +1460,16 @@ h3 {
 .bradcam_bg_1 {
   background-image: url(../img/banner/banner-2.jpg);
   background-position-y: -3rem; }
+
+.bradcam_bg_ads {
+  background-image: url(../img/banner/ads.png);
+  background-position-y: 0; }
+
+.bradcam_bg_design {
+  background-image: url(../img/banner/design.png);
+  background-position-y: 0; }
+  .bradcam_bg_design::before {
+    display: none; }
 
 .breadcam_bg_2 {
   background-image: url(../img/banner/bradcam_2.png);
@@ -3453,6 +3517,13 @@ h6 {
 
 /* Start Blog Area css
 ============================================================================================ */
+.design-ajus {
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+  justify-content: space-evenly;
+  flex-wrap: nowrap; }
+
 .latest-blog-area .area-heading {
   margin-bottom: 70px; }
 
@@ -4098,10 +4169,12 @@ h6 {
     text-align: left; }
     .single-post-area .navigation-area .nav-left .thumb {
       margin-right: 20px;
-      background: #000; }
+      background: #000;
+      border-radius: 1rem; }
       .single-post-area .navigation-area .nav-left .thumb img {
         -webkit-transition: 0.5s;
-        transition: 0.5s; }
+        transition: 0.5s;
+        border-radius: 1rem; }
     .single-post-area .navigation-area .nav-left .lnr {
       margin-left: 20px;
       opacity: 0;
@@ -4118,10 +4191,12 @@ h6 {
     text-align: right; }
     .single-post-area .navigation-area .nav-right .thumb {
       margin-left: 20px;
-      background: #000; }
+      background: #000;
+      border-radius: 1rem; }
       .single-post-area .navigation-area .nav-right .thumb img {
         -webkit-transition: 0.5s;
-        transition: 0.5s; }
+        transition: 0.5s;
+        border-radius: 1rem; }
     .single-post-area .navigation-area .nav-right .lnr {
       margin-right: 20px;
       opacity: 0;
@@ -4243,6 +4318,24 @@ h6 {
     color: #777; }
 
 /*============ End Blog Single Styles  =============*/
+.card-deck .card {
+  border: none;
+  border-radius: 1rem; }
+  .card-deck .card .card-header {
+    border-radius: calc(1rem - 1px) calc(1rem - 1px) 0 0; }
+    .card-deck .card .card-header.basic {
+      background: #004DFF; }
+    .card-deck .card .card-header.stand {
+      background: #A82C9E; }
+    .card-deck .card .card-header.pro {
+      background: #E1003C; }
+    .card-deck .card .card-header.eco {
+      background: #00D05E; }
+    .card-deck .card .card-header h4 {
+      color: #fff;
+      font-family: 'Comfortaa';
+      font-size: 30px; }
+
 /**************** blog part css start ****************/
 .blog_part {
   margin-bottom: 140px; }

@@ -1,8 +1,21 @@
 .bradcam_bg_1{
     background-image: url(../img/banner/banner-2.jpg);
-    background-position-y: -3rem;
-    
+    background-position-y: -3rem; 
 }
+
+.bradcam_bg_ads{
+    background-image: url(../img/banner/ads.png);
+    background-position-y: 0; 
+}
+
+.bradcam_bg_design{
+    background-image: url(../img/banner/design.png);
+    background-position-y: 0; 
+    &::before{
+        display: none;
+    }
+}
+
 .breadcam_bg_2{
     background-image: url(../img/banner/bradcam_2.png);
     background-position: bottom;

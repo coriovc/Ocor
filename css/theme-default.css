@@ -9,7 +9,8 @@
 body {
   font-family: "Comfortaa", cursive;
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+  overflow-x: hidden; }
 
 .img {
   max-width: 100%;
@@ -209,6 +210,10 @@ h3 {
 
 .section-padding {
   padding-top: 120px;
+  padding-bottom: 120px; }
+
+.section-ads {
+  padding-top: 0;
   padding-bottom: 120px; }
 
 .pt-120 {

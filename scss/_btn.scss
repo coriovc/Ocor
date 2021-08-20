@@ -204,3 +204,61 @@
         color: #fff;
     }
 }
+
+.btn-plans {
+    display: inline-block;
+    padding: 12px 33px;
+    font-family: $font1;
+    font-size: 16px;
+    font-weight: 500;
+    border: 0;
+    border: 1px solid transparent;
+    @include border-radius(30px);
+    text-align: center;
+    text-transform: capitalize;
+    @include transition(.5s);
+    cursor: pointer;
+    &:focus{
+        outline: none;
+    }
+            &.basic{                
+                background: transparent ;
+                border: 1px solid #004DFF;
+                color:#004DFF;
+                &:hover{
+                    background: #004DFF;
+                    color: #fff;
+                }
+                
+            }
+
+            &.stand{
+                background: transparent ;
+                border: 1px solid #A82C9E;
+                color:#A82C9E;
+                &:hover{
+                    background: #A82C9E;
+                    color: #fff;
+                }
+            }
+
+            &.pro{
+                background: transparent ;
+                border: 1px solid #E1003C;
+                color:#E1003C;
+                &:hover{
+                    background: #E1003C;
+                    color: #fff;
+                }
+            }
+
+            &.eco{
+                background: transparent ;
+                border: 1px solid #00D05E;
+                color:#00D05E;
+                &:hover{
+                    background: #00D05E;
+                    color: #fff;
+                }
+            }
+}

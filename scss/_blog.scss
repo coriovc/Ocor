@@ -18,13 +18,12 @@
 }
 .blog_area{
     a{
-        color: $font_1 !important;
+        color: $font_1;
         text-decoration: none;
         @include transform_time(.5s);
         &:hover, :hover{
             background: -webkit-linear-gradient( 131deg, #6200ee 0%, #6200ee 99%);
             -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
             text-decoration: none;
             @include transform_time(.5s);
         }

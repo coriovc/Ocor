@@ -3528,14 +3528,13 @@ h6 {
   margin-bottom: 70px; }
 
 .blog_area a {
-  color: #666666 !important;
+  color: #666666;
   text-decoration: none;
   -webkit-transition: 0.5s;
   transition: 0.5s; }
   .blog_area a:hover, .blog_area a :hover {
     background: -webkit-linear-gradient(131deg, #6200ee 0%, #6200ee 99%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     text-decoration: none;
     -webkit-transition: 0.5s;
     transition: 0.5s; }

@@ -22,7 +22,10 @@
 }
 .breadcam_bg_contact{
     background-image: url(../img/banner/banner-contact.png);
-    background-position-y: -26rem !important;
+    background-position-y: -26rem;
+    @media #{$mobile_device} {
+        background-position-y: 0;
+    }
 }
 .breadcam_bg_4{
     background-image: url(../img/banner/bradcam_4.png);
@@ -48,7 +51,7 @@
         content: '';
     }
     @media #{$mobile_device} {
-        padding: 140px 0 90px 0;
+        padding: 130px 0 40px 0;
     }
     h3{
         font-size: 78px;
@@ -58,7 +61,7 @@
         text-transform: capitalize;
         font-family: $font1;
         @media #{$mobile_device} {
-            font-size: 30px;
+            font-size: 40px;
         }
     }
     p{

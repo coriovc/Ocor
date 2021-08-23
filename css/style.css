@@ -1481,7 +1481,10 @@ h3 {
 
 .breadcam_bg_contact {
   background-image: url(../img/banner/banner-contact.png);
-  background-position-y: -26rem !important; }
+  background-position-y: -26rem; }
+  @media (max-width: 767px) {
+    .breadcam_bg_contact {
+      background-position-y: 0; } }
 
 .breadcam_bg_4 {
   background-image: url(../img/banner/bradcam_4.png);
@@ -1506,7 +1509,7 @@ h3 {
     content: ''; }
   @media (max-width: 767px) {
     .bradcam_area {
-      padding: 140px 0 90px 0; } }
+      padding: 130px 0 40px 0; } }
   .bradcam_area h3 {
     font-size: 78px;
     color: #fff;
@@ -1516,7 +1519,7 @@ h3 {
     font-family: "Comfortaa", cursive; }
     @media (max-width: 767px) {
       .bradcam_area h3 {
-        font-size: 30px; } }
+        font-size: 40px; } }
   .bradcam_area p {
     font-size: 18px;
     color: #fff;
@@ -2652,10 +2655,10 @@ h3 {
   padding: 4rem 0 0 0; }
   @media (max-width: 991px) {
     .contact-section {
-      padding: 70px 0 0 0; } }
+      padding: 20px 0 0 0; } }
   @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .contact-section {
-      padding: 80px 0 0 0; } }
+      padding: 20px 0 0 0; } }
   .contact-section .btn_2 {
     background-color: #191d34;
     padding: 18px 60px;

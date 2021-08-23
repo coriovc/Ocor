@@ -112,6 +112,9 @@
                             <li>Configuracion de:<br>Instagram y Facebook</li>
                           </ul>
                           <a href="https://wa.me/584124784959?text=Hola%20☺️%20estoy%20interesad@%20en%20un%20plan%20para%20publicidad%20BASIC💙" class="btn btn-lg btn-block btn-plans basic"><i class="fa fa-whatsapp"></i> contáctanos</a>
+                          <button type="button" class="btn btn-lg mt-2 btn-plans basic" data-toggle="modal" data-target="#paypal-modal">
+                              <i class="fa fa-paypal"></i> Pagar
+                            </button>
                         </div>
                       </div>
                       <div class="card mb-4 shadow-lg wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
@@ -126,6 +129,9 @@
                             <li>Configuracion de:<br>Instagram y Facebook</li>
                           </ul>
                           <a href="https://wa.me/584124784959?text=Hola%20☺️%20estoy%20interesad@%20en%20un%20plan%20para%20publicidad%20STAND💜" class="btn btn-lg btn-block btn-plans stand"><i class="fa fa-whatsapp"></i> contáctanos</a>
+                          <button type="button" class="btn btn-lg mt-2 btn-plans basic" data-toggle="modal" data-target="#paypal-modal">
+                              <i class="fa fa-paypal"></i> Pagar
+                            </button>
                         </div>
                       </div>
                       <div class="card mb-4 shadow-lg wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
@@ -140,6 +146,9 @@
                             <li>Configuracion de:<br>Instagram y Facebook</li>
                           </ul>
                           <a href="https://wa.me/584124784959?text=Hola%20☺️%20estoy%20interesad@%20en%20un%20plan%20para%20publicidad%20PRO❤️" class="btn btn-lg btn-block btn-plans pro"><i class="fa fa-whatsapp"></i> contáctanos</a>
+                          <button type="button" class="btn btn-lg mt-2 btn-plans basic" data-toggle="modal" data-target="#paypal-modal">
+                              <i class="fa fa-paypal"></i> Pagar
+                            </button>
                         </div>
                       </div>
                       <div class="card mb-4 shadow-lg wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
@@ -153,10 +162,42 @@
                             <li>Alcance estimado :<br>+1.000</li>
                             <li>Configuracion de:<br>Instagram y Facebook</li>
                           </ul>
-                          <a href="https://wa.me/584124784959?text=Hola%20☺️%20estoy%20interesad@%20en%20un%20plan%20para%20publicidad%20ECO💚" class="btn btn-lg btn-block btn-plans eco"><i class="fa fa-whatsapp"></i> contáctanos</a>
+                          <a href="https://wa.me/584124784959?text=Hola%20☺️%20estoy%20interesad@%20en%20un%20plan%20para%20publicidad%20ECO💚" class="btn btn-lg btn-block btn-plans eco"><i class="fa fa-whatsapp"></i> contáctanos</a>                          
                         </div>
                       </div>
                     </div>
+                <!-- Button trigger modal -->
+
+                <!-- Modal -->
+                <div class="modal fade" id="paypal-modal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-sm modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-body">
+                        <div id="smart-button-container">
+                          <div style="text-align: center;">
+                            <div style="margin-bottom: 1.25rem;">
+                              <p>Pago de Publicidad</p>
+                              <select id="item-options" class="form-control">
+                                <option value="Basico - 3 dias" price="8">Basico - 3 dias - 8 USD</option>
+                                <option value="Stand - 5 dias" price="14">Stand - 5 dias - 14 USD</option>
+                                <option value="Stand - 7 dias" price="18">Stand - 7 dias - 18 USD</option>
+                                <option value="Stand - 15 dias" price="35">Stand - 15 dias - 35 USD</option>
+                                <option value="Pro - 5 dias" price="30">Pro - 5 dias - 30 USD</option>
+                                <option value="Pro - 7 dias" price="40">Pro - 7 dias - 40 USD</option>
+                                <option value="Pro - 15 dias" price="80">Pro - 15 dias - 80 USD</option>
+                              </select>
+                              <select style="visibility: hidden" id="quantitySelect"></select>
+                            </div>
+                          <div id="paypal-button-container"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                   <div class="blog_details">
                      <h2>INFORMACIÓN SOBRE PUBLICIDAD ADS INSTAGRAM / FACEBOOK</h2>
                      <ul class="blog-info-link mt-3 mb-4">
@@ -265,7 +306,30 @@
       </div>
    </section>
    <!--================ Blog Area end =================-->
+   <div class="row">
+       <div class=" col-12 col-lg-3">
+              <div id="smart-button-container">
+              <div style="text-align: center;">
+                <div style="margin-bottom: 1.25rem;">
+                  <p>Pago de Publicidad</p>
+                  <select id="item-options" class="form-control">
+                    <option value="Basico - 3 dias" price="8">Basico - 3 dias - 8 USD</option>
+                    <option value="Stand - 5 dias" price="14">Stand - 5 dias - 14 USD</option>
+                    <option value="Stand - 7 dias" price="18">Stand - 7 dias - 18 USD</option>
+                    <option value="Stand - 15 dias" price="35">Stand - 15 dias - 35 USD</option>
+                    <option value="Pro - 5 dias" price="30">Pro - 5 dias - 30 USD</option>
+                    <option value="Pro - 7 dias" price="40">Pro - 7 dias - 40 USD</option>
+                    <option value="Pro - 15 dias" price="80">Pro - 15 dias - 80 USD</option>
+                  </select>
+                  <select style="visibility: hidden" id="quantitySelect"></select>
+                </div>
+              <div id="paypal-button-container"></div>
+              </div>
+            </div>
+       </div>
+   </div>
 
+    
  
     <!-- footer start -->
     <footer class="footer">
@@ -318,7 +382,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         </div>
     </footer>
     <!--/ footer end  -->
-
+   <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
 
    <!-- JS here -->
    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
@@ -348,6 +412,97 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
    <script src="js/mail-script.js"></script>
 
    <script src="js/main.js"></script>
+   <script>
+      function initPayPalButton() {
+        var shipping = 0;
+        var itemOptions = document.querySelector("#smart-button-container #item-options");
+    var quantity = parseInt();
+    var quantitySelect = document.querySelector("#smart-button-container #quantitySelect");
+    if (!isNaN(quantity)) {
+      quantitySelect.style.visibility = "visible";
+    }
+    var orderDescription = 'Pago de Publicidad';
+    if(orderDescription === '') {
+      orderDescription = 'Item';
+    }
+    paypal.Buttons({
+      style: {
+        shape: 'pill',
+        color: 'silver',
+        layout: 'vertical',
+        label: 'pay',
+        
+      },
+      createOrder: function(data, actions) {
+        var selectedItemDescription = itemOptions.options[itemOptions.selectedIndex].value;
+        var selectedItemPrice = parseFloat(itemOptions.options[itemOptions.selectedIndex].getAttribute("price"));
+        var tax = (08 === 0 || false) ? 0 : (selectedItemPrice * (parseFloat(08)/100));
+        if(quantitySelect.options.length > 0) {
+          quantity = parseInt(quantitySelect.options[quantitySelect.selectedIndex].value);
+        } else {
+          quantity = 1;
+        }
+
+        tax *= quantity;
+        tax = Math.round(tax * 100) / 100;
+        var priceTotal = quantity * selectedItemPrice + parseFloat(shipping) + tax;
+        priceTotal = Math.round(priceTotal * 100) / 100;
+        var itemTotalValue = Math.round((selectedItemPrice * quantity) * 100) / 100;
+
+        return actions.order.create({
+          purchase_units: [{
+            description: orderDescription,
+            amount: {
+              currency_code: 'USD',
+              value: priceTotal,
+              breakdown: {
+                item_total: {
+                  currency_code: 'USD',
+                  value: itemTotalValue,
+                },
+                shipping: {
+                  currency_code: 'USD',
+                  value: shipping,
+                },
+                tax_total: {
+                  currency_code: 'USD',
+                  value: tax,
+                }
+              }
+            },
+            items: [{
+              name: selectedItemDescription,
+              unit_amount: {
+                currency_code: 'USD',
+                value: selectedItemPrice,
+              },
+              quantity: quantity
+            }]
+          }]
+        });
+      },
+      onApprove: function(data, actions) {
+        return actions.order.capture().then(function(orderData) {
+          
+          // Full available details
+          console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+
+          // Show a success message within this page, e.g.
+          const element = document.getElementById('paypal-button-container');
+          element.innerHTML = '';
+          element.innerHTML = '<h3>Thank you for your payment!</h3>';
+
+          // Or go to another URL:  actions.redirect('thank_you.html');
+
+        });
+      },
+      onError: function(err) {
+        console.log(err);
+      },
+    }).render('#paypal-button-container');
+  }
+  initPayPalButton();
+</script>
 </body>
 
 </html>

@@ -87,6 +87,29 @@
             animation: mover-2 3s infinite  alternate;
         }
 
+ @media only screen and (max-width: 767px) {
+    
+    .img-1{
+        width: 95%;
+        margin-bottom: 5rem;
+    }
+
+    .img-2{
+        width: 60%;
+        margin-top:0;
+        margin-left: 0;  
+    }
+
+    .img-3{
+        width: 60%;
+        position: absolute;
+        margin-top: 12rem;
+        right: 0;
+        margin-right: 0;
+    }
+
+}
+
 
   @-webkit-keyframes mover-1 {
         0% { transform: translateY(0); }

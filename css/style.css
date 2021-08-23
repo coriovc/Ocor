@@ -1358,12 +1358,16 @@ h3 {
 
 .footer {
   background-image: url(../img/footer/footer.png);
-  background-color: #2600ee;
-  background-size: 150rem;
+  background-color: #2a2a4b;
   background-repeat: no-repeat;
   position: relative;
   z-index: 0;
-  background-position-y: -7rem; }
+  background-position-y: -29rem;
+  background-size: cover; }
+  @media (max-width: 767px) {
+    .footer {
+      background-position-y: 0;
+      background-size: cover; } }
   .footer .footer_top {
     padding: 4rem 0; }
     @media (max-width: 767px) {

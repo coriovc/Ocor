@@ -525,6 +525,13 @@ h3 {
     .btn-plans.eco:hover {
       background: #00D05E;
       color: #fff; }
+  .btn-plans.design {
+    background: transparent;
+    border: 1px solid #8600BC;
+    color: #8600BC; }
+    .btn-plans.design:hover {
+      background: #8600BC;
+      color: #fff; }
 
 .section_title span {
   position: relative;
@@ -4337,6 +4344,8 @@ h6 {
       background: #E1003C; }
     .card-deck .card .card-header.eco {
       background: #00D05E; }
+    .card-deck .card .card-header.design {
+      background: #8600BC; }
     .card-deck .card .card-header h4 {
       color: #fff;
       font-family: 'Comfortaa';

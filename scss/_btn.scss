@@ -261,4 +261,14 @@
                     color: #fff;
                 }
             }
+
+            &.design{
+                background: transparent ;
+                border: 1px solid #8600BC;
+                color:#8600BC;
+                &:hover{
+                    background: #8600BC;
+                    color: #fff;
+                }
+            }
 }

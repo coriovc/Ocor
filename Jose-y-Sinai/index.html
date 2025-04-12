@@ -65,7 +65,10 @@
                                     <a class="nav-link" href="#"> Inicio  </a>
                                  </li>
                                  <li class="nav-item">
-                                    <a class="nav-link" href="#con">Confirmación</a>
+                                    <a class="nav-link" href="#contact"> ¿Quienes Somos?</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="#">Confirmación</a>
                                  </li>
                               </ul>
                            </div>
@@ -171,7 +174,7 @@ Bancamiga
                   </div>
                </div>
                <div class="col-md-12">
-                  <a class="read_more" href="https://maps.app.goo.gl/cEU6dpQCFmgtVtMf7">Ubicación por mapa.</a>
+                  <a class="read_more" href="https://maps.app.goo.gl/WLUZHKC8tiqUherG9?g_st=aw">Ubicación por mapa.</a>
                </div>
             </div>
          </div>
@@ -179,7 +182,7 @@ Bancamiga
       <!-- end Our -->
       <!-- regist -->
       <div id="regist" class="regist">
-         <div class="container" id="con">
+         <div class="container">
             <div class="row">
                <div class="col-md-12">
                   <div class="titlepage">
@@ -194,7 +197,7 @@ Bancamiga
                <div class="col-md-12 ">
                   <form class="main_form">
                      <div class="row">
-               <div class="col-md-12 ">
+               <div class="col-md-12">
                   <a class="read_more" href="https://wa.link/w0v7pf">Para confirmar presiona aquí.</a>
                </div>
                      </div>
